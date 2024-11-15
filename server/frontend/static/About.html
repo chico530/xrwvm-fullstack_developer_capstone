@@ -1,68 +1,77 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+        <div class="container-fluid">
+            <h2 style="padding-right: 5%;">Dealerships</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
   
     <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+        <div class="banner" name="about-header">
+            <h1>About Us</h1>
+            Welcome to Best Cars dealership, home to the best cars in North America.
+            We deal in sale of domestic and imported cars at reasonable prices.
         </div>
-      </div>
+        <div style="display: flex;flex-direction: row; margin:auto">
+            <div class="card" style="width: 30%;">
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3978_by_Stepro_%28cropped2%29.jpg/1024px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3978_by_Stepro_%28cropped2%29.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="title">Charles Leclerc</p>
+                    <p>Scuderia Ferrari F1 driver</p>
+                    <p class="card-text">
+                        Ferrari driver since 2019.
+                        Multiple GP winner. Best quali racer.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Charles_Leclerc">More</a>
+                </div>
+            </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
+            <div class="card" style="width: 30%;">
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Lewis_Hamilton_2022_S%C3%A3o_Paulo_Grand_Prix_%2852498120773%29_%28cropped%29.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="title">Lewis Hamilton</p>
+                    <p>Scuderia Ferrari F1 driver</p>
+                    <p class="card-text">
+                        7 time Formula 1 World Champion with McLaren and Mercedes.
+                        Ferrari driver from 2025 onward
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Lewis_Hamilton">More</a>
+                </div>
+            </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+            <div class="card" style="width: 30%;">
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/1/15/MJXKPW_240117_SF_F1_FVasseur_Red_PR_AN_076161-1920x0_YRHUGH_%28close-up%29.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="title">Frédéric Vasseur</p>
+                    <p>Scuderia Ferrari Team Principal</p>
+                    <p class="card-text">
+                        Team Principal of Ferrari since 2023.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Vasseur">More</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    
+    </div>   
 </div>
 
 </html>
